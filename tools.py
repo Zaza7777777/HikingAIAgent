@@ -11,8 +11,10 @@ class GeocodingTool:
     def __init__(self):
         self.base_url = "https://nominatim.openstreetmap.org/search"
         self.headers = {
-            'User-Agent': 'HikePlanningAgent/1.0 (your.email@example.com)'
+            'User-Agent': 'HikePlanningAgent/1.0 (meowwoof@example.com)'
         }
+
+
 
     def get_coordinates(self, location_name: str) -> Optional[Dict]:
         """
